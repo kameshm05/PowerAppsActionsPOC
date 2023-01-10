@@ -28,9 +28,9 @@ jobs:
       #You can specify the solution name here
       solution_name: PowerPlatformDevopsSolution
       #Update your values here
-      BUILD_ENVIRONMENT_URL: https://org81cb9f70.crm6.dynamics.com/
-      PRODUCTION_ENVIRONMENT_URL: https://orgd0989e10.crm6.dynamics.com
-      CLIENT_ID: 291adacd-5854-4cd4-be80-558cfe4e4dbf
-      TENANT_ID: 3501e278-e6f5-4e0b-a897-abfa9b1c4136    
+      BUILD_ENVIRONMENT_URL: https://orgc0a0d6ce.crm8.dynamics.com/
+      PRODUCTION_ENVIRONMENT_URL: https://orgb638784f.crm8.dynamics.com/
+      CLIENT_ID: 63819df6-b571-4cc2-a98f-a1652a7f2f43
+      TENANT_ID: 3e8e53be-a48f-4147-adf8-7e90a6e46b57   
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
